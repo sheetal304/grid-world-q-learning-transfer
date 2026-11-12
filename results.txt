@@ -1,0 +1,15 @@
+Experiment A -> B (walls change)
+  Runs: 20, training episodes on target: 300
+  First 50 episodes, mean reward: scratch -14.62, transfer -0.21
+  Last 50 episodes, mean reward: scratch 2.10, transfer 2.00
+  Greedy steps to goal (mean): scratch 8.00, transfer 8.00
+  Greedy runs that never reached the goal: scratch 0, transfer 0
+  Example transfer path (last run): [(0, 0), (0, 1), (1, 1), (2, 1), (2, 2), (2, 3), (2, 4), (3, 4), (4, 4)]
+
+Experiment A -> C (goal changes)
+  Runs: 20, training episodes on target: 300
+  First 50 episodes, mean reward: scratch -3.31, transfer -15.84
+  Last 50 episodes, mean reward: scratch 6.45, transfer 4.99
+  Greedy steps to goal (mean): scratch 4.00, transfer 5.20
+  Greedy runs that never reached the goal: scratch 0, transfer 0
+  Example transfer path (last run): [(0, 0), (0, 1), (0, 2), (0, 3), (1, 3), (1, 4), (0, 4)]

@@ -1,0 +1,37 @@
+Results v2  (mean +- SD across 20 runs)
+
+A -> B (walls change), shortest path = 8 steps
+  scratch  early -14.71 +- 0.65 | final 2.14 +- 0.16 | success 1.000 +- 0.000 | path 8.00 +- 0.00 (n=20) | failed 0/400
+  transfer early -0.12 +- 0.92 | final 1.97 +- 0.22 | success 1.000 +- 0.000 | path 8.00 +- 0.00 (n=20) | failed 0/400
+  permutation p (early): 0.0001   (Bonferroni x12: 0.0012)
+  permutation p (final): 0.0071   (Bonferroni x12: 0.0852)
+
+A -> D (walls change), shortest path = 12 steps
+  scratch  early -43.05 +- 0.94 | final -2.46 +- 0.23 | success 1.000 +- 0.000 | path 12.00 +- 0.00 (n=20) | failed 0/400
+  transfer early -20.80 +- 7.89 | final -2.44 +- 0.22 | success 1.000 +- 0.000 | path 12.00 +- 0.00 (n=20) | failed 0/400
+  permutation p (early): 0.0001   (Bonferroni x12: 0.0012)
+  permutation p (final): 0.7974   (Bonferroni x12: 1.0000)
+
+A -> E (walls change), shortest path = 8 steps
+  scratch  early -20.23 +- 0.87 | final 2.01 +- 0.28 | success 1.000 +- 0.000 | path 8.00 +- 0.00 (n=20) | failed 0/400
+  transfer early -9.30 +- 3.23 | final 1.94 +- 0.24 | success 1.000 +- 0.000 | path 8.00 +- 0.00 (n=20) | failed 0/400
+  permutation p (early): 0.0001   (Bonferroni x12: 0.0012)
+  permutation p (final): 0.4344   (Bonferroni x12: 1.0000)
+
+A -> C (goal changes), shortest path = 4 steps
+  scratch  early -3.85 +- 0.80 | final 6.51 +- 0.15 | success 1.000 +- 0.000 | path 4.00 +- 0.00 (n=20) | failed 0/400
+  transfer early -20.91 +- 18.36 | final 4.73 +- 0.83 | success 1.000 +- 0.000 | path 5.40 +- 0.94 (n=20) | failed 0/400
+  permutation p (early): 0.0002   (Bonferroni x12: 0.0024)
+  permutation p (final): 0.0001   (Bonferroni x12: 0.0012)
+
+A -> F (goal changes), shortest path = 4 steps
+  scratch  early -3.36 +- 1.04 | final 6.46 +- 0.18 | success 1.000 +- 0.000 | path 4.00 +- 0.00 (n=20) | failed 0/400
+  transfer early -21.39 +- 18.65 | final 4.53 +- 0.81 | success 1.000 +- 0.000 | path 5.60 +- 0.82 (n=20) | failed 0/400
+  permutation p (early): 0.0002   (Bonferroni x12: 0.0024)
+  permutation p (final): 0.0001   (Bonferroni x12: 0.0012)
+
+A -> G (goal changes), shortest path = 6 steps
+  scratch  early -12.62 +- 0.83 | final 4.32 +- 0.19 | success 1.000 +- 0.000 | path 6.00 +- 0.00 (n=20) | failed 0/400
+  transfer early -4.88 +- 10.64 | final 2.95 +- 1.93 | success 1.000 +- 0.000 | path 7.20 +- 1.88 (n=20) | failed 0/400
+  permutation p (early): 0.0025   (Bonferroni x12: 0.0300)
+  permutation p (final): 0.0009   (Bonferroni x12: 0.0108)
